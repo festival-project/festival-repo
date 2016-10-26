@@ -1,0 +1,8 @@
+{
+    "run_list": [
+        "recipe[festival-openstack-storage]",
+        "recipe[festival-elasticsearch]",
+        "recipe[festival-kibana]"
+    ],
+    "chef_environment": "festival-elasticsearch"
+}

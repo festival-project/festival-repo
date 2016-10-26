@@ -1,0 +1,6 @@
+{
+    "run_list": [
+        "recipe[festival-kibana]"
+    ],
+    "chef_environment": "festival-elasticsearch"
+}

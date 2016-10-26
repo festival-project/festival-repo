@@ -1,0 +1,21 @@
+{
+    "name": "festival-elasticsearch",
+    "description": "This is festival-elasticsearch environment defined as JSON",
+    "chef_type": "environment",
+    "json_class": "Chef::Environment",
+    "default_attributes": {
+        "festival-openstack-storage": {
+        },
+        "festival-elasticsearch": {
+        },
+        "festival-kibana": {
+        },
+        "festival-nginx": {
+        }
+    },
+    "override_attributes": {
+    },
+    "cookbook_versions": {
+        "jose": "= 1.0.0"
+    }
+}

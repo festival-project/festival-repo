@@ -1,0 +1,7 @@
+{
+    "run_list": [
+        "recipe[festival-kibana]",
+        "recipe[festival-nginx]"
+    ],
+    "chef_environment": "festival-nginx"
+}

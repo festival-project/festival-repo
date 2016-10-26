@@ -1,0 +1,24 @@
+{
+    "name": "festival",
+    "description": "This is festival environment defined as JSON",
+    "chef_type": "environment",
+    "json_class": "Chef::Environment",
+    "default_attributes": {
+        "festival-openstack-storage": {
+        },
+        "festival-elasticsearch": {
+        },
+        "festival-kibana": {
+		"server.host": "\"127.0.0.1\""
+        },
+        "festival-nginx": {
+		"username": "kibana",
+		"password": "kibana"
+        }
+    },
+    "override_attributes": {
+    },
+    "cookbook_versions": {
+        "jose": "= 1.0.0"
+    }
+}
